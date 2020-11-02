@@ -12,10 +12,35 @@
     --button-bg-color: #F5F4FA;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-color-primary);
+  }
+  a:hover,
+  a:focus {
+    color: var(--text-color-sacondary);
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+
 body {
     background-color: #ffffff;
     color: var(--primiry-text-color);
     font-family: Roboto, sans-serif;
+    font-style: normal;
     letter-spacing: 0.03em;
 }
 
@@ -85,8 +110,19 @@ body {
     color: var(--white-color);
 }
 
-.button .order:hover,
-.button .order:focus {
+.section-title .button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--button-bg-color);
+    background-color: var(--accent-color);
+    text-decoration: none;
+}
+
+.section-title .button :hover,
+.section-title .button :focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -138,15 +174,11 @@ body {
 
 /* button */
 
-.button {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    color: var(--primary-text-color);
-    background-color: var(--button-bg-color);
-    text-decoration: none;
+.filters-list .button {
+    color: var(--background-color-header);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .choess:hover,
