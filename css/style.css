@@ -116,7 +116,7 @@ ol {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -130,14 +130,14 @@ ol {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,2;
     letter-spacing: 0.03em;
 }
 
 .list .text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,72;
     color: var(--secondary-text-color);
 }
 
@@ -148,7 +148,7 @@ ol {
 .list .title {
     font-weight: 400;
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: 1,2;
     color: var(--secondary-text-color);
 }
 
@@ -157,7 +157,7 @@ ol {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,63;
     text-align: center;
     letter-spacing: 0.03em;
     background: #F5F4FA;
